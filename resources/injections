@@ -19,23 +19,23 @@
 #header,Host,%s:80@%h
 header,Contact,root@%s
 header,From,root@%s
-header,User-Agent,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 root@%s
+header,User-Agent,Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0 root@%s
 header,Referer,http://%s/ref
 #header,X-Original-URL,http://%s/
 header,X-Wap-Profile,http://%s/wap.xml
-#header,Profile,http://%s/wap.xml
-#header,X-Arbitrary,http://%s/
-#header,X-HTTP-DestinationURL,http://%s/
-#header,X-Forwarded-Proto,http://%s/
-#header,Origin,http://%s
-#header,X-Forwarded-Host,%s
-#header,X-Forwarded-Server,%s
-#header,X-Host,%s
-#header,Proxy-Host,%s
-#header,Destination,%s
-#header,Proxy,http://%s
-#header,Via,1.1 %s
-header,X-Forwarded-For,spoofed.%s
+header,Profile,http://%s/wap.xml
+header,X-Arbitrary,http://%s/
+header,X-HTTP-DestinationURL,http://%s/
+header,X-Forwarded-Proto,http://%s/
+header,Origin,http://%s
+header,X-Forwarded-Host,%s
+header,X-Forwarded-Server,%s
+header,X-Host,%s
+header,Proxy-Host,%s
+header,Destination,%s
+header,Proxy,http://%s
+header,Via,1.1 %s
+#header,X-Forwarded-For,spoofed.%s
 header,True-Client-IP,spoofed.%s
 header,Client-IP,spoofed.%s
 header,X-Client-IP,spoofed.%s
